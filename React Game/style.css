@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+body{
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #dddddd;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-item-centre{
+    align-items: center;
+}
+.rule{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+.rule h2{
+    font-weight: 600;
+    color:#fc7b03 ;
+}
+.rule h3{
+    font-weight: 500;
+    color:#2107e8 ;
+}
+.btn-01{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fc7b03;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .6s ease;
+    left: 42%;
+    position: relative;
+    margin-top: 30px;
+}
+.btn-01:hover{
+    background-color: #f5ec42;
+}
+.box{
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.message{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top:50px ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.message h3{
+   font-weight: 700;
+   color:#fc7b03 ;
+   text-transform: capitalize;
+}
+.results{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    font-weight: 600;
+    color:#2107e8;
+}
+.results #loser{
+    color: #fc0505;
+    font-weight: 700;
+}
+.results #winner{
+    color: #07f00f;
+    font-weight: 700;
+}
+@media (max-width:769px){
+    .btn-01{
+        left:298px;
+    }
+}
+@media (max-width:425px){
+    .btn-01{
+        left:118px;
+    }
+}
+@media (max-width:375px){
+    .btn-01{
+        left:106px;
+    }
+}
+@media (max-width:300px){
+    .btn-01{
+        left:67px;
+    }
+}
